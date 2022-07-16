@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.dark {
+  background-color: #1f2937;
+}
+
+
+/* Hero */
+.intro img {
+  width: 850px;
+  height: 250px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 180px 120px;
+  gap: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .links {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.intro {
+  display: flex;
+  gap: 90px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro .title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.intro .main-title{
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.intro .subtext,
+.header .links a{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup-button {
+  display: flex;
+}
+
+.signup-button a {
+  background-color: #3882f6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
