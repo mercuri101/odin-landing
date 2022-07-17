@@ -165,3 +165,34 @@ a {
   padding-right: 20px;
 }
 
+/* Call */
+.call {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.panel {
+  display: flex;
+  background-color: #3882f6;
+  justify-content: space-around;
+  width: 900px;
+  padding: 50px 35px;
+  border-radius: 10px;
+}
+
+.call p {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.call .bold {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.call .signup-button a {
+  border: 3px solid white;
+}
