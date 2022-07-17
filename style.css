@@ -119,3 +119,38 @@ a {
   text-align: center;
   font-size: 18px;
 }
+
+/* Quote */
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 75px;
+}
+
+.quote-section p {
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.quote {
+  font-style: italic;
+  width: 825px;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quoter {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  padding-right: 20px;
+}
+
