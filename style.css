@@ -11,6 +11,9 @@ body {
   background-color: #1f2937;
 }
 
+.signup-button a:hover {
+  background-color: #609cfc;
+}
 
 /* Hero */
 .intro img {
@@ -196,7 +199,7 @@ a {
 }
 
 .call .signup-button a {
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
 /* Footer */
