@@ -15,6 +15,10 @@ body {
   background-color: #609cfc;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Hero */
 .intro img {
   width: 510px;
@@ -46,8 +50,8 @@ body {
   gap: 25px;
 }
 
-a {
-  text-decoration: none;
+.header .links a:hover {
+  color: #ffffff;
 }
 
 .header .logo {
