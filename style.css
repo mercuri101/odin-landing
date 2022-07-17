@@ -78,7 +78,9 @@ a {
 }
 
 .intro .subtext,
-.header .links a{
+.header .links a,
+.footer,
+.call .text{
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -195,4 +197,11 @@ a {
 
 .call .signup-button a {
   border: 3px solid white;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
 }
