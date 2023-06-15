@@ -20,28 +20,21 @@ a {
 }
 
 /* Hero */
-.intro img {
-  width: 510px;
-  height: 250px;
-}
+
 
 .hero {
   display: flex;
-  padding: 10px 0 120px;
-  justify-content: center;
-}
-
-.hero-container {
-  display: flex;
   flex-direction: column;
-  gap: 100px;
-  width: 1100px;
+  gap: 60px;
+  padding: 10px 0 40px;
+  align-items: stretch;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15px;
 }
 
 .header .links {
@@ -61,21 +54,35 @@ a {
 }
 
 .intro {
+  text-align: center;
   display: flex;
-  justify-content: space-between;
-}
-
-.left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 500px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+  width: 60vw;
+  gap: 50px;
+  align-self: center;
+  row-gap: 20px;
+  align-content: center;
 }
 
 .intro .title {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  flex: 1 1 350px;
+  max-width: 500px;
+  min-width: 445px;
+}
+
+.intro img {
+  border: 2px solid #f9faf8;
+  border-radius: 15px;
+  width: 500px;
+  min-width: 400px;
+  height: 250px;
+  flex: 0, 1, 400px;
 }
 
 .intro .main-title{
@@ -94,6 +101,7 @@ a {
 
 .signup-button {
   display: flex;
+  align-self: center;
 }
 
 .signup-button a {
@@ -119,8 +127,9 @@ a {
 .content {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .bucket {
@@ -145,7 +154,7 @@ a {
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
-  padding: 100px 0 75px;
+  padding: 75px 0 75px;
 }
 
 .quote-section p {
@@ -157,14 +166,16 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: center;
 }
 
 .quote {
   font-style: italic;
-  width: 825px;
+  max-width: 825px;
   font-size: 36px;
   font-weight: lighter;
+  /* flex: 0 1 auto; */
+  text-align: center;
+  padding: 10px;
 }
 
 .quoter {
@@ -178,16 +189,23 @@ a {
 .call {
   display: flex;
   justify-content: center;
-  padding: 80px 0;
+  padding: 80px 30px;
 }
 
 .panel {
   display: flex;
   background-color: #3882f6;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px 15px;
   width: 900px;
-  padding: 50px 35px;
+  padding: 40px 30px;
   border-radius: 10px;
+}
+
+.call .text {
+  min-width: 312px;
+  flex: 1 1 312px;
 }
 
 .call p {
@@ -204,6 +222,7 @@ a {
 
 .call .signup-button a {
   border: 2px solid white;
+  text-align: center;
 }
 
 /* Footer */
